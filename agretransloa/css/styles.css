@@ -1,0 +1,54 @@
+@font-face {
+    font-family: segoi-ui;
+    src: url('../segoe-ui-4-cufonfonts/Segoe\ UI.ttf');
+}
+
+html{
+    font-size: 62.2%;
+
+}
+
+body {
+    font-family: segoi-ui;
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+   
+}
+header h1{
+    font-size: 5.8rem;
+    color: #053477;
+}
+.logo_principal{
+    width: 12rem;
+    height: 100%;
+}
+.imagen_fondo{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+}
+.contenedor_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenedor_1 nav ul{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0%;
+
+}
+.contenedor_1 nav{
+    width: 50%;
+    margin-left: 4rem;
+}
