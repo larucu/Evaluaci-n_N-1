@@ -1,0 +1,178 @@
+@font-face {
+    font-family: segoi-ui;
+    src: url('../segoe-ui-4-cufonfonts/Segoe\ UI.ttf');
+}
+
+body {
+    font-family: segoi-ui;
+}
+
+img {
+    max-width: 100%;
+}
+
+header h1{
+    font-size: 58px;
+    color: #053477;
+    
+}
+.camion {
+    width: 150px;
+    margin-right: 100px;
+}
+.logo-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0%;
+    width: 100%;
+    justify-content: space-between;
+
+}
+header nav{
+    width: 45%;
+}
+header li{
+    list-style-type: none;
+}
+.imagen-fondo{
+    position: relative;
+    
+    
+}
+.titulos-1{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.nuestro-trabajo h2{
+    font-size: 50px;
+    color: #2A4B7A;
+
+}
+.nuestro-trabajo img{
+    width: 100px;
+
+}
+.parrafo{
+    text-align: center;
+}
+.imagen-parrafo{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.nuestro-trabajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Parrafos{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.imagen-parrafo img{
+    margin-right: 30px;
+}
+.parrafo p{
+    color: #053477;
+}
+.avatar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.avatar img{
+    width: 90%;
+    margin-left: 5%;
+}
+.grupo-avatares{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.avatar h3{
+    text-align: center;
+    font-size: 25px;
+    color: #F75F1C;
+}
+.avatar p{
+    text-align: center;
+    font-size: 18px;
+    color: #053477;
+}
+.nuestro-equipo h2{
+    font-size: 50px;
+    color: #2A4B7A;
+    text-align: center;
+}
+.informacion-personal{
+    background-color: #2A4B7A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contacto h2{
+    color: #F75F1C;
+    font-size: 50px;
+
+}
+.informacion-personal legend{
+    font-size: 22px;
+    color: #F75F1C;
+}
+.informacion-personal label{
+    display: block;
+    color: #ffffff;
+}
+.contacto li{
+    list-style-type: none;
+    color: #ffffff;
+    margin: 10px;
+}
+.area-texto{
+    width: 100%;
+    
+}
+.contacto ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacto h2{
+    margin: 0%;
+}
+.informacion-personal form{
+    width: 50%;
+}
+.enviar{
+    background-color: #F75F1C;
+    color: #ffffff;
+}
+footer ul li img{
+    height: 30px;
+}
+footer li{
+    list-style-type: none;
+}
+.imagenes-sociales{
+    background-color: #F75F1C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0%;
+}
